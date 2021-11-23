@@ -25,3 +25,7 @@
 .h_ms_80 {
     height: 5rem;
 }
+
+.bg_ms_poco_scuro {
+    background-color: rgb(51, 67, 86);
+}
