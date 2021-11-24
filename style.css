@@ -30,6 +30,98 @@
     background-color: rgb(51, 67, 86);
 }
 
-.ms_bianco {
+.ms_color_scuro {
+    color: rgb(48, 61, 78);
+}
+
+.ms_color_bianco {
     color: #fff;
+}
+.ms_color_verde {
+    color: rgb(88, 185, 157);
+}
+
+.ms_fill_scuro {
+    fill: rgb(48, 61, 78)
+}
+
+img {
+    width: 100%
+}
+
+.ms_border_radius {
+    border-radius: 15px;
+}
+
+.ms_star.ms_color_bianco:before,
+.ms_star.ms_color_bianco:after {
+    content: "";
+    display: inline-block;
+    width: 35%;
+    height: 4px;
+    line-height: 4px;
+    background-color: #fff;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.ms_star.ms_color_scuro:before,
+.ms_star.ms_color_scuro:after {
+    content: "";
+    display: inline-block;
+    width: 35%;
+    height: 4px;
+    line-height: 4px;
+    background-color: rgb(48, 61, 78);
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.ms_font_8{
+    font-size: 0.5rem;
+}
+
+.ms_font_10{
+    font-size: 0.8rem;
+}
+
+.ms_font_16 {
+    font-size: 1rem;
+}
+
+.ms_font_32 {
+    font-size: 2rem;
+}
+
+.ms_circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 1px #fff;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.form-control.ms_bordo_input {
+    border: none;
+    border-bottom: solid 2px #aaa;
+    border-radius: 0;
+}
+
+#down {
+    background-color: rgb(88, 185, 157);
+    border: solid 1px #fff;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.col-6.col-md-3.col-lg-3 .ms_star.ms_color_bianco {
+    color: white;
+}
+
+.col-6.col-md-3.col-lg-3 .ms_star.ms_color_scuro {
+    color: rgb(48, 61, 78);
 }
